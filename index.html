@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="uz"><head>
+<meta name="facebook-domain-verification" content="3e6hjk0ymmj8snol2yo74kvjfui2r3" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internet orqali 1000$ daromad qilish — Bepul darslik</title>
+<style>
+:root{
+  --bg:#000000;
+  --card:#0e0e12;
+  --accent:#4da3ff;
+  --accent2:#8b5cf6;
+  --text:#f5f5f7;
+  --muted:#9a9aa5;
+  --danger:#ff5470;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+  background:radial-gradient(circle at 50% 20%, #0a0a12 0%, #000000 60%);
+  color:var(--text);
+  font-family:'Segoe UI', Roboto, Arial, sans-serif;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:32px 16px 60px;
+  overflow-x:hidden;
+}
+.stars{
+  position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, #ffffff55 50%, transparent 51%),
+    radial-gradient(1px 1px at 70% 60%, #ffffff33 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 40% 80%, #ffffff44 50%, transparent 51%),
+    radial-gradient(1px 1px at 85% 15%, #ffffff40 50%, transparent 51%),
+    radial-gradient(1px 1px at 10% 70%, #ffffff30 50%, transparent 51%);
+  background-size: 100% 100%;
+}
+.wrap{ position:relative; z-index:1; max-width:520px; width:100%; text-align:center; }
+
+h1{
+  font-size:33px;
+  line-height:1.3;
+  font-weight:800;
+  margin-top:8px;
+  letter-spacing:-0.5px;
+  text-shadow:0 0 40px rgba(77,163,255,0.35);
+}
+h1 span{
+  background:linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.meta{
+  margin-top:14px;
+  display:flex;
+  justify-content:center;
+  gap:22px;
+  font-size:13px;
+  color:var(--muted);
+}
+.meta b{ display:block; color:var(--text); font-size:15px; }
+
+.hero{
+  margin:28px auto 8px;
+  width:340px; max-width:85%; height:420px;
+  position:relative;
+  padding:6px;
+  border-radius:24px;
+  background:linear-gradient(135deg, var(--accent), var(--accent2));
+  box-shadow:0 0 40px rgba(77,163,255,0.4), 0 0 70px rgba(139,92,246,0.25);
+}
+.hero img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:50% 12%;
+  border-radius:19px;
+  border:3px solid #0b0b12;
+}
+
+.cta-btn{
+  display:inline-block;
+  margin-top:24px;
+  padding:34px 52px;
+  border-radius:18px;
+  background:linear-gradient(180deg, #7093f8 0%, #4569ee 55%, #3355dd 100%);
+  color:#fff;
+  font-weight:800;
+  font-size:24px;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+  text-decoration:none;
+  border:none;
+  border-bottom:6px solid #24399e;
+  cursor:pointer;
+  box-shadow:0 10px 0 rgba(0,0,0,0.15), 0 16px 30px rgba(45,90,230,0.4);
+}
+
+.timer-box{
+  margin-top:28px;
+  display:inline-block;
+  padding:14px 30px 16px;
+  border-radius:18px;
+  border:1.5px solid rgba(77,163,255,0.45);
+  background:linear-gradient(180deg, rgba(77,163,255,0.10), rgba(139,92,246,0.06));
+  box-shadow:0 0 30px rgba(77,163,255,0.25), inset 0 1px 0 rgba(255,255,255,0.05);
+  font-size:14.5px;
+  color:var(--muted);
+}
+.timer{
+  font-size:38px;
+  font-weight:800;
+  color:var(--danger);
+  letter-spacing:2px;
+  margin-top:4px;
+  text-shadow:0 0 20px rgba(255,84,112,0.45);
+}
+
+.lessons{
+  margin-top:30px;
+  text-align:left;
+}
+.lessons h3{
+  text-align:center;
+  font-size:22px;
+  margin-bottom:18px;
+  color:var(--text);
+}
+.lesson-item{
+  position:relative;
+  background:linear-gradient(180deg, #14141c, #0d0d13);
+  border:1px solid #26262f;
+  border-radius:16px;
+  padding:26px 20px 20px;
+  margin-top:22px;
+  margin-bottom:0;
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  line-height:1.55;
+  color:#dcdce2;
+}
+.lesson-item .check{
+  position:absolute;
+  top:-16px;
+  left:50%;
+  transform:translateX(-50%);
+  width:32px; height:32px;
+  border-radius:50%;
+  background:linear-gradient(135deg, var(--accent), var(--accent2));
+  display:flex; align-items:center; justify-content:center;
+  font-size:15px;
+  color:#fff;
+  border:3px solid #08080c;
+  box-shadow:0 4px 12px rgba(77,163,255,0.35);
+}
+
+form{
+  margin-top:34px;
+  background:#0e0e14;
+  border:1px solid #23232f;
+  border-radius:18px;
+  padding:26px 22px;
+  text-align:left;
+}
+form h3{
+  text-align:center;
+  font-size:18.5px;
+  margin-bottom:18px;
+}
+label{
+  font-size:14px;
+  color:var(--muted);
+  display:block;
+  margin-bottom:6px;
+}
+input{
+  width:100%;
+  padding:13px 14px;
+  border-radius:10px;
+  border:1px solid #2c2c3a;
+  background:#181822;
+  color:var(--text);
+  font-size:16.5px;
+  margin-bottom:6px;
+}
+input:focus{ outline:none; border-color:var(--accent); }
+.error{
+  color:var(--danger);
+  font-size:13.5px;
+  min-height:16px;
+  margin-bottom:10px;
+}
+.submit-btn{
+  width:100%;
+  padding:30px;
+  border:none;
+  border-radius:18px;
+  background:linear-gradient(180deg, #7093f8 0%, #4569ee 55%, #3355dd 100%);
+  color:#fff;
+  font-weight:800;
+  font-size:22px;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+  cursor:pointer;
+  margin-top:10px;
+  border-bottom:6px solid #24399e;
+  box-shadow:0 10px 0 rgba(0,0,0,0.15), 0 14px 26px rgba(45,90,230,0.35);
+}
+.submit-btn:disabled{ opacity:0.6; cursor:not-allowed; }
+
+footer{
+  margin-top:40px;
+  font-size:12.5px;
+  color:#54545e;
+  text-align:center;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 480px){
+  body{ padding:24px 14px 48px; }
+  h1{ font-size:26px; }
+  .hero{ width:270px; height:340px; margin:22px auto 6px; }
+  .cta-btn{ padding:26px 36px; font-size:20px; border-bottom-width:5px; }
+  .timer-box{ padding:12px 22px 14px; }
+  .timer{ font-size:32px; }
+  .lessons h3{ font-size:20px; }
+  .lesson-item{ font-size:17.5px; }
+  form{ padding:20px 16px; }
+  form h3{ font-size:17px; }
+  input{ font-size:16.5px; padding:12px 13px; } /* 16px+ prevents iOS zoom on focus */
+  .submit-btn{ font-size:19px; padding:24px; border-bottom-width:5px; }
+}
+
+@media (max-width: 360px){
+  h1{ font-size:24px; }
+  .hero{ width:220px; height:280px; }
+}
+</style>
+
+<!-- Meta Pixel Code -->
+<script src="https://connect.facebook.net/signals/config/1347531513672894?v=2.9.390&r=stable&domain=ulugbekgulyamov.vercel.app&hme=a767ae4c6a92a40ee4d7e358a937ad845c8bdb98a3bbe3412069dded3a7be57d&ex_m=115%2C221%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C188%2C235%2C82%2C248%2C247%2C246%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C297%2C298%2C299%2C296%2C312%2C335%2C228%2C217%2C68%2C218%2C216%2C338%2C329%2C58%2C229%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183" async></script><script async src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1347531513672894');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1347531513672894&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<div class="stars"></div>
+<div class="wrap">
+
+<h1>Internet orqali <span>1000$</span> daromad qilish</h1>
+
+<div class="hero">
+<img src="https://internet-orqali-1000-daromad-qilish-3701-p8hjmht34-ulugbek6.vercel.app/hero.jpg" alt="Kurs muallifi">
+</div>
+
+<a href="#lead-form" class="cta-btn">Bepul darslikni olish</a>
+
+<div class="timer-box">
+Bepul qatnashishga ulguring:
+<div class="timer" id="countdown">01:11</div>
+</div>
+
+<div class="lessons">
+<h3>🎁 Darslikda o'rganasiz:</h3>
+<div class="lesson-item">
+<div class="check">✓</div>
+<div>Uydan chiqmay pul ishlashning real usulini</div>
+</div>
+<div class="lesson-item">
+<div class="check">✓</div>
+<div>Noldan boshlaganlar uchun internetda daromad qilish yo'lini</div>
+</div>
+<div class="lesson-item">
+<div class="check">✓</div>
+<div>Internet orqali daromad qilishning zamonaviy kasbini</div>
+</div>
+</div>
+
+<form id="lead-form">
+<h3>Bepul darslikni olish uchun ma'lumotlaringizni kiriting</h3>
+
+<label for="name">Ismingiz</label>
+<input type="text" id="name" placeholder="Ismingizni kiriting" autocomplete="name">
+<div class="error" id="name-error"></div>
+
+<label for="phone">Telefon raqamingiz</label>
+<input type="tel" id="phone" placeholder="+998 90 123 45 67" autocomplete="tel">
+<div class="error" id="phone-error"></div>
+
+<button type="submit" class="submit-btn" id="submit-btn">Davom etish</button>
+</form>
+
+<footer>© 2026. Barcha huquqlar himoyalangan.</footer>
+</div>
+
+<script>
+// ====== CONFIG ======
+// Google Apps Script Web App URL (deploy the provided .gs script and paste the URL here)
+const GAS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwU6Y3RLOl5FPICT8hBL2-VHruShw8aSFeppbFZGgWcB_2GYouzw-3GrCHdPyY1lVyV/exec";
+const TELEGRAM_LINK = "https://t.me/ulugbek_gulyamov";
+// =====================
+
+// Countdown timer — 2 minutes from page load
+(function countdown(){
+  const el = document.getElementById('countdown');
+  let totalSeconds = 2 * 60;
+  const timer = setInterval(() => {
+    totalSeconds--;
+    if (totalSeconds <= 0) {
+      totalSeconds = 0;
+      clearInterval(timer);
+    }
+    const m = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+    const s = String(totalSeconds % 60).padStart(2, '0');
+    el.textContent = `${m}:${s}`;
+  }, 1000);
+})();
+
+// Phone validation: +998 XX XXX XX XX
+function isValidUzPhone(value) {
+  const digits = value.replace(/\D/g, '');
+  return /^998\d{9}$/.test(digits) || /^\d{9}$/.test(digits);
+}
+
+const form = document.getElementById('lead-form');
+const nameInput = document.getElementById('name');
+const phoneInput = document.getElementById('phone');
+const nameError = document.getElementById('name-error');
+const phoneError = document.getElementById('phone-error');
+const submitBtn = document.getElementById('submit-btn');
+
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  nameError.textContent = '';
+  phoneError.textContent = '';
+
+  let valid = true;
+  const name = nameInput.value.trim();
+  const phone = phoneInput.value.trim();
+
+  if (name.length < 2) {
+    nameError.textContent = "Iltimos, ismingizni kiriting";
+    valid = false;
+  }
+  if (!isValidUzPhone(phone)) {
+    phoneError.textContent = "❌ Telefon raqam mos emas! (+998 90 123 45 67) shunday formatda kiriting";
+    valid = false;
+  }
+  if (!valid) return;
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Yuborilmoqda...";
+
+    if (typeof fbq === 'function') { fbq('track', 'Lead'); }
+
+  try {
+    if (GAS_WEBHOOK_URL && !GAS_WEBHOOK_URL.startsWith("PASTE_")) {
+      const payload = JSON.stringify({ name, phone, source: "landing", ts: new Date().toISOString() });
+      // Fire-and-forget: don't block navigation waiting for Google Apps Script
+      // (GAS endpoints can take many seconds to respond). sendBeacon queues the
+      // request and lets it finish in the background even after we navigate away.
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon(GAS_WEBHOOK_URL, new Blob([payload], { type: "text/plain" }));
+      } else {
+        fetch(GAS_WEBHOOK_URL, {
+          method: "POST",
+          mode: "no-cors",
+          keepalive: true,
+          headers: { "Content-Type": "text/plain" },
+          body: payload
+        }).catch(() => {});
+      }
+    }
+  } catch (err) {
+    console.error("Yuborishda xatolik:", err);
+  } finally {
+    window.location.href = TELEGRAM_LINK;
+  }
+});
+</script>
+
+
+</body></html>
