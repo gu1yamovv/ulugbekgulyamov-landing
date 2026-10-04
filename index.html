@@ -157,6 +157,12 @@ footer{padding:40px 0 120px;text-align:center;color:var(--muted);font-size:.85re
 .gr{background:linear-gradient(135deg,#7dffb0 0%,#2dd47a 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .rd{background:linear-gradient(135deg,#ff7a7a 0%,#ff3030 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .quote{margin:22px 0;padding:20px 22px;border-left:4px solid var(--a);border-radius:12px;background:rgba(255,90,31,.08);color:var(--text);font-family:Unbounded,sans-serif;font-weight:700;font-size:1.05rem;line-height:1.45}
+.mods{display:grid;gap:12px}
+.mod{display:flex;gap:18px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;transition:border-color .2s,transform .2s}
+.mod:hover{border-color:var(--a);transform:translateY(-2px)}
+.mod b{flex:0 0 auto;min-width:44px;height:44px;border-radius:12px;background:rgba(255,90,31,.12);color:var(--a);display:grid;place-items:center;font-family:Unbounded,sans-serif;font-size:.85rem}
+.mod h3{font-size:1.02rem;font-weight:700;margin:2px 0 4px;color:var(--text)}
+.mod p{margin:0;font-size:.95rem;line-height:1.5}
 </style>
 <!-- Meta Pixel Code -->
 <script src="https://connect.facebook.net/signals/config/1347531513672894?v=2.9.390&r=stable&domain=ulugbekgulyamov.vercel.app&hme=a767ae4c6a92a40ee4d7e358a937ad845c8bdb98a3bbe3412069dded3a7be57d&ex_m=115%2C221%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C188%2C235%2C82%2C248%2C247%2C246%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C297%2C298%2C299%2C296%2C312%2C335%2C228%2C217%2C68%2C218%2C216%2C338%2C329%2C58%2C229%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183" async></script><script async src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
@@ -330,14 +336,23 @@ src="https://www.facebook.com/tr?id=1347531513672894&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- YAKUN -->
-<section class="closing">
+<!-- KURS MODULLARI -->
+<section>
   <div class="narrow">
-    <p class="rv">Yana lid 1-2$dan ko'tarilishini kutishingiz mumkin.</p>
-    <p class="rv">Yana oyiga 1000$ topa olmaslikni qabul qilishingiz mumkin.</p>
-    <p class="rv">Yoki bugun tizimni o'rganishni boshlashingiz mumkin.</p>
-    <div class="decision rv g">Qaror sizda.</div>
-    <p class="sign rv">— Ulug'bek</p>
+    <div class="num rv">KURS DASTURI</div>
+    <h2 class="rv">9 ta modul. <span class="g">Qadamma-qadam tizim.</span></h2>
+    <p class="rv" style="margin-bottom:22px">Har bir modul oldingisiga tayanadi. Oxirida sizda reklama ham, sotuv ham, barqaror daromad ham bo'ladi.</p>
+    <div class="mods">
+      <div class="mod rv"><b>01</b><div><h3>Kirish va Fikrlash</h3><p>Targetolog kabi fikrlashni o'rganasiz: reklama nega ishlaydi va nega to'xtab qoladi.</p></div></div>
+      <div class="mod rv"><b>02</b><div><h3>Facebook Texnik Sozlamalar</h3><p>Kabinet, Pixel va hisobni xatosiz sozlash. Reklamani ishonch bilan ishga tushirasiz.</p></div></div>
+      <div class="mod rv"><b>03</b><div><h3>Targeting Asoslari va Metrikalar</h3><p>Auditoriyani aniq topish va CPL, CTR, CPM raqamlarini o'qishni o'rganasiz.</p></div></div>
+      <div class="mod rv"><b>04</b><div><h3>Kreativlar Asoslari</h3><p>Odamni to'xtatadigan va ariza qoldirtiradigan g'oya hamda matnlar.</p></div></div>
+      <div class="mod rv"><b>05</b><div><h3>Reklama Analizi</h3><p>Lid nega qimmatlashganini raqamlardan topasiz va tuzatasiz.</p></div></div>
+      <div class="mod rv"><b>06</b><div><h3>Strategiya Tuzish</h3><p>Har bir loyiha uchun tizim: test, byudjet va o'sish rejasi.</p></div></div>
+      <div class="mod rv"><b>07</b><div><h3>Blok va Cheklovlar</h3><p>Reklama va akkaunt nega bloklanadi, qanday oldini olish va tiklash.</p></div></div>
+      <div class="mod rv"><b>08</b><div><h3>Mijoz Topish va Sotish</h3><p>Mijoz bilan gaplashish, narxni aytish va "qimmat" e'tirozini yopish.</p></div></div>
+      <div class="mod rv"><b>09</b><div><h3>Masshtablash</h3><p>Barqaror natijadan oyiga 1000$ ga chiqish yo'li.</p></div></div>
+    </div>
   </div>
 </section>
 
