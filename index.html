@@ -173,6 +173,18 @@ footer{padding:40px 0 120px;text-align:center;color:var(--muted);font-size:.85re
 .who-card h3{font-size:1.15rem;font-weight:700;margin:0 0 8px;color:var(--text)}
 .who-card p{margin:0;line-height:1.55}
 .who-note{margin-top:22px;text-align:center;font-weight:600;color:var(--text)}
+.fmt{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+.fmt-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 24px;overflow:hidden}
+.fmt-card.hot{border-color:var(--a);background:linear-gradient(160deg,rgba(255,90,31,.10),var(--card))}
+.fmt-tag{display:inline-block;font-family:Unbounded,sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--a);margin-bottom:8px}
+.fmt-badge{position:absolute;top:16px;right:16px;font-size:.7rem;font-weight:800;color:#1a0d05;background:var(--grad);border-radius:999px;padding:4px 10px}
+.fmt-card h3{font-size:1.2rem;font-weight:700;margin:0 0 8px;color:var(--text)}
+.fmt-card p{margin:0 0 14px;line-height:1.55}
+.fmt-list{list-style:none;margin:0;padding:0}
+.fmt-list li{position:relative;padding:7px 0 7px 26px;color:var(--text);font-weight:500;font-size:.95rem;line-height:1.45}
+.fmt-list li::before{content:"✓";position:absolute;left:0;top:7px;color:var(--ok);font-weight:800}
+.fmt-note{margin-top:22px;text-align:center;font-weight:600;color:var(--text)}
+@media (max-width:700px){.fmt{grid-template-columns:1fr}.fmt-badge{position:static;display:inline-block;margin-bottom:10px}}
 </style>
 <!-- Meta Pixel Code -->
 <script src="https://connect.facebook.net/signals/config/1347531513672894?v=2.9.390&r=stable&domain=ulugbekgulyamov.vercel.app&hme=a767ae4c6a92a40ee4d7e358a937ad845c8bdb98a3bbe3412069dded3a7be57d&ex_m=115%2C221%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C188%2C235%2C82%2C248%2C247%2C246%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C297%2C298%2C299%2C296%2C312%2C335%2C228%2C217%2C68%2C218%2C216%2C338%2C329%2C58%2C229%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183" async></script><script async src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
@@ -379,6 +391,30 @@ src="https://www.facebook.com/tr?id=1347531513672894&ev=PageView&noscript=1"
       <div class="who-card rv"><span class="who-tag">Biznes egasi</span><h3>Reklamadan sotuv kutayotgan</h3><p>Reklamaga pul ketyapti, sotuv esa yo'q. Reklama qanday ishlashini tushunasiz va uni o'zingiz yurita olasiz yoki targetologni to'g'ri nazorat qilasiz.</p></div>
     </div>
     <p class="rv who-note">Kurs tez boyish va "sehrli tugma" izlayotganlar uchun emas. U ishlashni va o'rganishni xohlaydiganlar uchun.</p>
+  </div>
+</section>
+
+<!-- KURS FORMATI -->
+<section>
+  <div class="narrow">
+    <div class="num rv">FORMAT</div>
+    <h2 class="rv">Ikki xil format. <span class="g">O'zingizga mosini tanlang.</span></h2>
+    <div class="fmt">
+      <div class="fmt-card rv">
+        <span class="fmt-tag">Online</span>
+        <h3>Yozib olingan darslar</h3>
+        <p>Barcha modullar video darslar shaklida. Siz o'zingizga qulay vaqtda o'rganasiz.</p>
+        <ul class="fmt-list"><li>Istalgan vaqtda va istalgan joydan o'rganasiz</li><li>O'z tezligingizda, shoshilmasdan</li><li>Darslarni xohlagancha qayta ko'rasiz</li><li>Hamma modullar bitta joyda, doim qo'lingizda</li></ul>
+      </div>
+      <div class="fmt-card hot rv">
+        <span class="fmt-badge">Tezroq natija</span>
+        <span class="fmt-tag">Offline · Toshkent</span>
+        <h3>1 ga 1 individual</h3>
+        <p>Men bilan birga shug'ullanasiz. Natijagacha olib chiqaman, siz manzilga tezroq yetib borasiz.</p>
+        <ul class="fmt-list"><li>Ulug'bek bilan yonma-yon, amaliyotda ishlaysiz</li><li>Sizning loyihangiz va sizning raqamlaringiz ustida</li><li>Natijagacha olib chiqiladi</li><li>Online kurs ham bonus sifatida qo'shib beriladi</li></ul>
+      </div>
+    </div>
+    <p class="rv fmt-note">Narx 15 daqiqalik bepul diagnostikadan so'ng aytiladi. Diagnostikada sizga qaysi format mosligini birga aniqlaymiz.</p>
   </div>
 </section>
 
